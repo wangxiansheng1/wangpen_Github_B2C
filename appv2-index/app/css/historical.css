@@ -1,0 +1,80 @@
+.historical_bj {
+	background: #f0f0f0;
+}
+header{
+	position: fixed;
+ 	left: 0;
+ 	top: 0;
+	z-index: 10;
+	color:#000000 ;
+}
+
+.historical_coupon {
+	width:100%;
+	height: auto;
+	display: block;
+	float: left;
+ 	margin-top:.9rem;
+}
+.historical_coupon .historical_coupon_list{
+	width: 100%;
+ 	height:1.17rem;
+	background: #ffffff;
+ 	float: left;
+ 	border-bottom:0.01rem solid #f0f0f0;
+	 
+}
+.historical_coupon .historical_coupon_list .historical_coupon_title_f {
+	width: 7.06rem;
+ 	height:.4rem;
+ 	margin-top: .2rem;
+	margin-left:.22rem;
+ 	float: left;
+}
+.historical_coupon .historical_coupon_list .historical_coupon_title_f .coupon_title_name {
+	width: 50%;
+ 	height: .4rem;
+	line-height: .4rem;
+	overflow: hidden;
+	float: left;
+	font-size: .3rem;
+	color: #323232;
+}
+.historical_coupon .historical_coupon_list .historical_coupon_title_f .coupon_title_val {
+	width: 50%; 
+	height: .4rem;
+	line-height: .4rem;
+	color: #f5174b;
+	overflow: hidden;
+	float: right;
+	font-size: .28rem;
+	text-align: right;
+}
+.historical_coupon .historical_coupon_list .historical_coupon_title_t {
+	width: 7.06rem;
+ 	height:.35rem;
+ 	margin-left:.22rem;
+ 	float: left;
+}
+.historical_coupon .historical_coupon_list .historical_coupon_title_t .coupon_title_man {
+	width: 50%; 
+	height: .35rem;
+	line-height:.35rem;
+	color: #999999;
+	overflow: hidden;
+	float: left;
+	font-size: .28rem;
+}
+.historical_coupon .historical_coupon_list .historical_coupon_title_t .coupon_title_record {
+	width: 50%; 
+	height: .35rem;
+	line-height: .35rem;
+	color: #f5174b;
+	overflow: hidden;
+	float: right;
+	font-size: .28rem;
+	text-align: right;
+	color:#999999;
+}
+
+ 

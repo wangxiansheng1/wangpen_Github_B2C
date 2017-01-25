@@ -1,0 +1,262 @@
+.union_bj {
+	background: #f0f0f0
+}
+
+.union_coupon {
+	width: 94%;
+	height: auto;
+	display: block;
+	float: left;
+	background: #ffffff;
+	padding: .2rem 3%
+}
+
+.union_coupon .union_coupon_car {
+	width: 2rem;
+	height: 2rem;
+	background: #ffffff;
+	display: block;
+	float: left
+}
+
+.union_coupon .union_coupon_car img {
+	width: 2rem;
+	height: 2rem
+}
+
+.union_coupon .union_coupon_title {
+	font-size: .28rem;
+	width: calc(100% - 2.4rem);
+	height: 2rem;
+	padding-left: .2rem;
+	float: left
+}
+
+.union_coupon .union_coupon_title span {
+	width: 100%;
+	height: auto;
+	display: block
+}
+
+.union_coupon .union_coupon_title .coupon_title_name {
+	color: #323232;
+	height: .4rem;
+	line-height: .4rem;
+	overflow: hidden
+}
+
+.union_coupon .union_coupon_title .coupon_title_fuwu {
+	color: #323232;
+	height: .62rem;
+	line-height: .32rem;
+	margin: .08rem 0;
+	overflow: hidden
+}
+
+.union_coupon .union_coupon_title .coupon_title_carname {
+	color: #828282;
+	height: .4rem;
+	line-height: .4rem;
+	overflow: hidden
+}
+
+.union_coupon .union_coupon_title .coupon_title_val {
+	color: #ff0000;
+	text-align: right;
+	height: .4rem;
+	line-height: .4rem;
+	overflow: hidden
+}
+
+.union {
+	width: 94%;
+	height: auto;
+	display: block;
+	float: left;
+	padding: 0 3%;
+	background: #ffffff;
+	margin-top: .2rem
+}
+
+.union .union_integral,
+.union .union_card,
+.union .union_ph {
+	width: 100%;
+	height: .94rem;
+	display: block;
+	float: left;
+	border-bottom: 1px solid #e1e1e1
+}
+
+.union .union_integral {
+	font-size: .3rem;
+	line-height: .94rem
+}
+
+.union .union_integral .union_integral_val {
+	color: #ff0000;
+	padding: 0 .14rem
+}
+
+.union .union_card {
+	font-size: .28rem
+}
+
+.union .union_card input {
+	width: calc( 100% - 2.5rem);
+	height: .94rem;
+	padding-left: .5rem;
+	background: url(../images/card.png) no-repeat left;
+	background-size: .4rem .27rem;
+	font-size: .3rem
+}
+
+.union .union_card .union_card_fc {
+	width: 1.5rem;
+	height: .7rem;
+	background: #f5174b;
+	border-radius: 4px;
+	color: #ffffff;
+	display: block;
+	float: right;
+	text-align: center;
+	line-height: .7rem;
+	margin-top: .12rem
+}
+
+.union .union_ph {
+	font-size: .28rem;
+}
+
+.union .union_ph input {
+	width: calc( 100% - 4rem);
+	height: .93rem;
+	background: url(../images/message.png) no-repeat left;
+	background-size: .27rem .36rem;
+	float: left;
+	padding: 0 .5rem;
+	font-size: .3rem
+}
+
+.union .union_ph .union_ph_mes {
+	font-size: .28rem;
+	color: #f5174b;
+	float: right;
+	line-height: .86rem;
+	background: #ffffff;
+	padding: 0;
+	margin: .04rem
+}
+
+.union_mum {
+	float: left;
+	width: 100%;
+	height: .94rem;
+	border-bottom: 1px solid #e1e1e1
+}
+
+.number_left {
+	font-size: .24rem;
+	float: left;
+	display: block;
+	color: #999999;
+	line-height: .94rem
+}
+
+.number_btn {
+	width: auto;
+	height: auto;
+	float: right;
+	margin-top: .17rem
+}
+
+.number_btn .number_btn_jian {
+	font-size: .4rem;
+	display: block;
+	float: left;
+	color: #f5174b;
+	background: #f5f5f5;
+	width: .6rem;
+	height: .6rem;
+	margin-right: .1rem;
+	text-align: center;
+	line-height: .6rem
+}
+
+.number_btn .number_btn_shumu {
+	width: .9rem;
+	height: .6rem;
+	font-size: .28rem;
+	display: block;
+	float: left;
+	line-height: .6rem;
+	color: #323232;
+	text-align: center;
+	background: #f5f5f5;
+	margin-right: .1rem;
+	border-radius: 0;
+	padding: 0
+}
+
+.number_btn .number_btn_jia {
+	font-size: .4rem;
+	display: block;
+	float: left;
+	color: #f5174b;
+	background: #f5f5f5;
+	width: .6rem;
+	height: .6rem;
+	text-align: center;
+	line-height: .6rem
+}
+
+
+/* all */
+
+::-webkit-input-placeholder {
+	/* WebKit browsers */
+	font-size: .24rem;
+}
+
+:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	font-size: .24rem;
+}
+
+::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	font-size: .24rem;
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	font-size: .24rem;
+}
+
+.union .union_exchange {
+	width: 100%;
+	height: 1rem;
+	line-height: 1rem;
+	color: #999999;
+	font-size: .3rem;
+	background: #ffffff;
+	display: block;
+	float: left;
+	text-align: center
+}
+
+.footer {
+	width: 100%;
+	height: 1rem;
+	text-align: center;
+	line-height: 1rem;
+	font-size: .3rem;
+	position: absolute;
+	bottom: 0;
+	border-top: 1px solid #e2e2e2;
+	background: #ffffff
+}
+
+.footer a {
+	color: #f5174b
+}

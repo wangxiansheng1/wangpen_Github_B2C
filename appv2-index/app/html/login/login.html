@@ -1,0 +1,62 @@
+<!doctype html>
+<html manifest="app.manifest">
+<head>
+<meta charset="utf-8">
+<title>登录</title>
+<meta name="description" content="">
+<meta name="Keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no,email=no">
+<link href="../common/css/common.css" rel="stylesheet">
+<link href="css/login.css" rel="stylesheet">
+<script src="../common/js/zepto.min.js"></script>
+<script src="js/login.js"></script>
+</head>
+
+<body>
+<div class="nwrapper">
+
+<!--顶部-->
+	<header class="header">
+        <h2>联盟商户积分兑换专区</h2>
+	</header>
+
+<!--中间-->
+	<section class="login_main">
+          <!--错误信息提示-->
+          <div class="item item_tips">
+              <div class="err_msg">用户名不存在</div>
+          </div>
+          <!--登录表单-->
+          <form action="" method="post">
+              <div class="item item_username">
+              	  <i class="icon_tel"></i>
+                  <input class="txt_input txt_username" type="text" placeholder="请输入手机号码" autofocus required>
+                  <em class="icon_close"></em>
+              </div>
+              
+              <div class="item item_password">
+              	  <i class="icon_pwd"></i>
+                  <input class="txt_input txt_password" type="password" autocomplete="off" placeholder="请输入密码" required>
+              </div>
+
+              
+              <div class="item item_btns">
+                  <a class="btn_login btn_disabled" href="javascript:;">登录</a>
+              </div>
+          </form>
+    </section>
+<!--/中间-->
+
+</div>
+
+
+<!--底部-->
+<div class="footer">
+  <a href="http://app.lehumall.com/html5/app/download.html">下载乐虎全球家APP，享更多优惠</a>
+</div>
+</body>
+</html>

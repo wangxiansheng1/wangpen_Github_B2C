@@ -1,0 +1,25 @@
+CACHE MANIFEST
+#v1.4.17
+
+CACHE:
+styles/lehu.h5.union.css
+styles/lehu.h5.login.css
+styles/lehu.h5.chants.css
+styles/lehu.h5.points.css
+styles/lehu.h5.historical.css
+scripts/common/lehu.h5.common.js
+scripts/common/require.min.js
+scripts/lehu.h5.page.union.js
+scripts/lehu.h5.page.login.js
+scripts/lehu.h5.page.chants.js
+scripts/lehu.h5.page.points.js
+scripts/lehu.h5.page.historical.js
+images/login_04.png
+images/Shortcut_114_114.png
+union.html
+
+NETWORK:
+*
+ 
+FALLBACK:
+404.html
